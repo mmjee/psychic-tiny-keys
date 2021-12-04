@@ -1,4 +1,5 @@
-const tinykeys = require('tinykeys')
+// ???
+const tinykeys = require('tinykeys').default
 
 exports.setupKeybindings = function setupKeybindings (el, bindings, ...extra) {
   const newBindings = {}
